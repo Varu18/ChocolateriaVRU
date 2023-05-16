@@ -1,0 +1,119 @@
+body {
+  margin-left: 12.5rem;
+  margin-right: 12.5rem;
+  font-family: "Dosis", sans-serif;
+}
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #741603;
+}
+nav li {
+  display: inline-block;
+}
+nav a:link,
+nav a :visited {
+  width: 9.375rem;
+  display: block;
+  text-align: center;
+  padding: 0rem;
+  font-size: 0.938rem;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: #741603;
+  color: white;
+}
+.meniu {
+  position: absolute;
+  top: 0.625rem;
+  right: 12.5rem;
+}
+.cover {
+  margin-top: 3.125rem;
+}
+.cover:hover {
+  opacity: 0.9;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 2.5rem;
+}
+.descriere {
+  width: 50%;
+}
+.aside {
+  background-color: tan;
+  width: 21.875rem;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  padding: 1.25rem;
+  position: absolute;
+  top: 28.75rem;
+  right: 11.875rem;
+  border-radius: 0.938rem;
+}
+.buton {
+  position: absolute;
+  left: 40.625rem;
+  top: 43.75rem;
+  background-color: tan;
+  width: 7.5rem;
+  height: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.938rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.etape {
+  float: left;
+  margin-right: 2.188rem;
+}
+ul {
+  list-style-type: circle;
+}
+.produse {
+  margin-right: 12rem;
+  border-radius: 1rem;
+}
+
+form {
+  font-weight: bold;
+  background-color: tan;
+}
+.send {
+  background-color: tan;
+  width: 7.5rem;
+  height: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 40.625rem;
+  left: 43.125rem;
+}
+.scurta-descriere {
+  position: absolute;
+  bottom: 3.125rem;
+}
+.date-contact {
+  position: absolute;
+  top: 15.625rem;
+  left: 68.75rem;
+}
+
+@media only screen (min-width: 20rem) {
+  body {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-family: "Dosis", sans-serif;
+  }
+}

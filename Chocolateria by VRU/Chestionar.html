@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Chestionar</title>
+  </head>
+  <body>
+    <h1>Impreuna, imbunatatim experienta Chocolateria by VRU</h1>
+    <form action="ciocolata.php" method="post">
+      <fieldset>
+        <legend>Informatii personale</legend>
+        Numele tau <br />
+        <input type="text" name="name" /> <br />
+        Adresa email <br />
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Introduceti o adresa de email"
+        />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Experienta ta cu Chocolateria</legend>
+        <br />
+        <textarea cols="20" rows="5">
+Descrie in cateva cuvinte experienta cu Chocolateria</textarea
+        >
+        <br />
+        <br />
+        Ai recomanda si altora Chocolateria by VRU?
+        <br />
+        <input type="radio" name="radio" value="r1" />Da
+        <br />
+        <input type="radio" name="radio" value="r1" />Nu <br />
+        <br />
+        Care dintre produsele Chocolateria le-ai prefera? <br />
+        <input type="checkbox" name="checkbox" value="ch1" />Torturi si
+        prajituri
+        <br />
+        <input type="checkbox" name="checkbox" value="ch2" />Praline <br />
+        <input type="checkbox" name="checkbox" value="ch3" />Specialitati <br />
+        <br />
+        <input class="send" type="submit" value="Trimite" />
+      </fieldset>
+    </form>
+  </body>
+</html>
